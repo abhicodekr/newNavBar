@@ -43,10 +43,16 @@ nav ul li a{
     transition: all 0.5s ease;
 }
 
-nav ul li a:hover{
+    nav ul li a:hover,
+    nav ul li a.active{
     color: rgb(51, 65, 72);
     background: #fff;
 }
+
+nav .menu-btn i{
+    color: white;
+}
+
 
 @media (max-width: 940px) {
     nav ul {
@@ -71,5 +77,8 @@ nav ul li a:hover{
     nav ul li a.active{
         color: rgb(51, 65, 72);
         background: cyan;
-    
-}
+        }
+  
+ }
+
+ 
